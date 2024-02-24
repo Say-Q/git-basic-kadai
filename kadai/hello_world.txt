@@ -1,0 +1,30 @@
+PS C:\Users\kubo-> cd kadai
+PS C:\Users\kubo-\kadai> mkdir git_challenge
+
+ 
+PS C:\Users\kubo-\kadai> cd git_challenge
+PS C:\Users\kubo-\kadai\git_challenge> git init
+Initialized empty Git repository in C:/Users/kubo-/kadai/git_challenge/.git/
+PS C:\Users\kubo-\kadai\git_challenge> git add hello_world.txt
+PS C:\Users\kubo-\kadai\git_challenge> git commit -m"最初のコミット"
+[main (root-commit) f747364] 最初のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+PS C:\Users\kubo-\kadai\git_challenge> git add hello_world.txt
+PS C:\Users\kubo-\kadai\git_challenge> git commit -m"2行目に日本語を追加"
+[main 7c3434c] 2行目に日本語を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\kubo-\kadai\git_challenge> git log
+commit 7c3434c8ac1d077874e8903d3fa0cc20fffc4e38 (HEAD -> main)
+Author: Say-Q <say19840702@gmail.com>
+Date:   Sat Feb 24 20:02:26 2024 +0900
+
+    2行目に日本語を追加
+
+commit f7473647c3ad1a57acd6b4ad80a6c7d2e2f720d5
+Author: Say-Q <say19840702@gmail.com>
+Date:   Sat Feb 24 19:54:45 2024 +0900
+
+    最初のコミット
+:
